@@ -33,7 +33,7 @@ MyCord is a multithreaded terminal-based chat client written in C for Linux/Unix
 Make sure you have a Linux/Unix environment with GCC and Python 3 installed
 
 Required tools:
-- GCC
+- GCC (GNU Compiler Collection)
 - Python 3
 - POSIX-compatible operating system
 - POSIX pthread support
