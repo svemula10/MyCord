@@ -4,8 +4,8 @@ MyCord is a multithreaded terminal-based chat client written in C for Linux/Unix
 
 ## 🌟 Key Features
 
-- **TCP IPv4 Networking**: Establishes persistent socket connections to a mycord server using configurable IP addresses, domains, and ports.
-- **Custom Binary Protocol**: Implements the mycord 1,064-byte message protocol for structured client-server communication.
+- **TCP IPv4 Networking**: Establishes persistent socket connections to a MyCord server using configurable IP addresses, domains, and ports.
+- **Custom Binary Protocol**: Implements the MyCord 1,064-byte message protocol for structured client-server communication.
 - **Multithreaded Communication**: Uses POSIX pthread to receive server messages concurrently while the main thread handles user input.
 - **Real-Time Chat**: Supports sending and receiving messages between multiple connected clients.
 - **Message Validation**: Validates outgoing messages for length, printable ASCII characters, and invalid input before transmission.
@@ -40,8 +40,8 @@ Required tools:
 
 ### 2: Clone the Repository (if you haven't downloaded from github)
 ```
-git clone https://github.com/svemula10/mycord.git
-cd mycord
+git clone https://github.com/svemula10/MyCord.git
+cd MyCord
 ```
 
 ### 3: Compile the Client
